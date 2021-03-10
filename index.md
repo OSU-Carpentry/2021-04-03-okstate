@@ -76,7 +76,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-<a id="s_lc_event_7609180" href="https://okstate.libcal.com/calendar/events/Langston_DC">CLICK AND REGISTER</a>
+<a id="s_lc_event_7609180" href="https://okstate.libcal.com/calendar/events/Langston_DC">REGISTER</a>
 <style>
 #s_lc_event_7609180 {
   background: #DFDFDF;
