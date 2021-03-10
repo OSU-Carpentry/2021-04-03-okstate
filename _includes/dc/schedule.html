@@ -1,3 +1,4 @@
+{% include custom-schedule.html %}
 {% comment %}
 This is the typical schedule for the Data Carpentry workshops.
 The schedule for the different curricula are listed here:
@@ -5,7 +6,7 @@ The schedule for the different curricula are listed here:
 - dc-genomics
 - dc-socsci
 - dc-geosptial
-{% endcomment %}
+
 {% if site.curriculum == "dc-ecology" %}
 <div class="row">
   <div class="col-md-6">
@@ -238,3 +239,4 @@ The schedule for the different curricula are listed here:
 {% else %}
 {% include warning-curriculum.html %}
 {% endif %}
+	{% endcomment %}
