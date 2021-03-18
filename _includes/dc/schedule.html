@@ -1,4 +1,3 @@
-{% include custom-schedule.html %}
 {% comment %}
 This is the typical schedule for the Data Carpentry workshops.
 The schedule for the different curricula are listed here:
@@ -6,116 +5,6 @@ The schedule for the different curricula are listed here:
 - dc-genomics
 - dc-socsci
 - dc-geosptial
-
-{% if site.curriculum == "dc-ecology" %}
-<div class="row">
-  <div class="col-md-6">
-    <h3>April 3rd</h3>
-    <table class="table table-striped">
-      <tr><td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td></td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr><td></td> <td>END</td> </tr>   
-    </table>
-	</div>
-</div>
-<div class="row">
-	<div class="col-md-6">
-    <h3>April 10th</h3>
-    <table class="table table-striped">
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning (cont.)</a></td></tr>
-      <tr>
-        <td></td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R - Software Download and Set Up</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr> <td></td> <td>END</td> </tr>
-    </table>
-	</div>
-</div>
-<div class="row">
-  <div class="col-md-6">
-    <h3>April 17th</h3>
-    <table class="table table-striped">
-      <tr>
-        <td></td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R </a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr> 
-    </table>
-	<div class="col-md-6">
-    <h3>April 24th</h3>
-    <table class="table table-striped">
-     <tr>
-       <tr>
-        <td></td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R:  Data Analysis & Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr><td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td><td>END</td> </tr>  
-    </table>
-	</div>
-</div>
-{% comment %}	
- <div class="row">
-  <div class="col-md-6">
-	<h3>April 17th</h3>
-    <table class="table table-striped">
-      <tr><td></td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data Analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
-      </tr>
-      <tr><td></td>
-	<td> END </td></tr>
-	  </table>
-	</div>
-
-  <div class="col-md-6">
-	<h3>April 24th</h3>
-    <table class="table table-striped">
-      <tr> <td></td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R:  Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
-      </tr>
-   
-<tr><td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-	<td> END </td>
-      </tr>
-    </table>
-  </div>
-</div>
 {% endcomment %}
 
 {% if site.curriculum == "dc-ecology" %}
@@ -202,7 +91,7 @@ The schedule for the different curricula are listed here:
     </table>
   </div>
 </div>
-{% endcomment %}
+
 {% elsif site.curriculum == "dc-socsci" %}
 
 <div class="row">
@@ -291,4 +180,3 @@ The schedule for the different curricula are listed here:
 {% else %}
 {% include warning-curriculum.html %}
 {% endif %}
-	{% endcomment %}
