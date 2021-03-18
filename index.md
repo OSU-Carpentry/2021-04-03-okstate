@@ -76,21 +76,14 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-<a id="s_lc_event_7609180" href="https://okstate.libcal.com/calendar/events/Langston_DC">REGISTER</a>
-<style>
-#s_lc_event_7609180 {
-  background: #DFDFDF;
-  border: 1px solid #DFDFDF;
-  border-radius: 4px;
-  color: #777777;
-  font: 14px Arial, Helvetica, Verdana;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-#s_lc_event_7609180:hover {
-  opacity: 0.9;
-}
-</style>
+
+<td>
+  <style type="text/css">.e6266951 { background-color:#DFDFDF; border:1px solid #DFDFDF; 
+    color: #050505!important; -moz-box-shadow:inset 0px 1px 0px 0px #ffffff; -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff; 
+    box-shadow:inset 0px 1px 0px 0px #ffffff;font-size: 11px; font-family: arial; padding:6px 12px; 
+    display:inline-block;text-decoration:none; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; border-color: #050505; } .e6266951:hover { background-   color:#050505; color: #DFDFDF!important; }
+  </style>
+     <a class="e6266951" href="https://okstate.libcal.com/calendar/events/Langston_DC">REGISTER HERE</a></td>
 
 <h2 id="general">General Information</h2>
 
