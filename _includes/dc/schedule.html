@@ -8,52 +8,64 @@ The schedule for the different curricula are listed here:
 {% endcomment %}
 
 {% if site.curriculum == "dc-ecology" %}
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
+<div class="row">        <!-- first two days -->
+  <div class="col-md-6"> <!-- left column -->
+    <h3>April 3</h3>
     <table class="table table-striped">
-      <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      <tr>               <!-- row 1   -->
+        <td>Before starting</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr>
-        <td>Afternoon</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+      <tr>               <!-- row 2   --><td></td><td><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
+
+      <tr>               <!-- row 3   --><td></td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
+
     </table>
   </div>
-  <div class="col-md-6">
-    <h3>Day 2</h3>
+  <div class="col-md-6"> <!-- right column -->
+    <h3>April 10th</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
+      <tr>               <!-- row 1   --><td></td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning(cont.)</a></td></tr>
+      <tr>               <!-- row 2   -->
+
+        <td></td>        <!-- content --> <td><a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R - Software Download & Setup</a></td>
       </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+     
+    </table>
+  </div>
+</div>
+<div class="row">        <!-- days 3 and 4 -->
+  <div class="col-md-6"> <!-- left column -->
+    <h3>April 17th</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td></td>        <!-- time    -->
+        <td><a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R </a></td>        <!-- content -->
       </tr>
-      <tr>
-	<td> </td>
-	<td> END </td>
+      <tr>               <!-- row 2   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+    </table>
+  </div>
+  <div class="col-md-6"> <!-- right column -->
+    <h3>April 24th</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td></td>        <!-- time    -->
+        <td><a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Analysis and Visualization</a></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>End</td>
+        <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
       </tr>
     </table>
   </div>
